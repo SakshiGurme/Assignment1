@@ -1,0 +1,18 @@
+basiPython = int (input ('Enter salary:'))
+
+if basipython<=10000:
+  hra = basipython* 0.2 
+  da = basipython* 0.8 
+  gross = basipython+ hra + da
+
+elif basipython <=20000: 
+  hra = basipython* 0.3
+  da = basipython *0.9 
+  gross = basipython + hra + da
+
+else: 
+  hra = basipython* 0.35
+  da = basipython*0.95
+  gross = basiPython + hra + da
+
+print ('Gross salary = ', gross)
