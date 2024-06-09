@@ -1,0 +1,13 @@
+#create tuple of elements with 5 float in it
+t=(10.20,36.80,40.30,77.03,65.50)
+
+
+#print in sorted manner
+print(sorted(t))
+
+#check 50 is present or not in tuple
+print(50 in t)
+
+#convert into set
+s=set(t)
+print(s)
