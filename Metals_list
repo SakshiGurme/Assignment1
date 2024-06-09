@@ -1,0 +1,8 @@
+metals=['silver','gold']
+
+#create new list identical to metals list and add some metals except copper
+new = metals
+new.append('platinum')
+new.append('bronze')
+new.append('iron')
+print(new)
