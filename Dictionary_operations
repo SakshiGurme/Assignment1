@@ -1,0 +1,18 @@
+dict={'a':'apple','b':'ball','c':'cat','d':'doll','k':'king'}
+
+#access data at key 'k'
+print(dict['k'])
+
+#add a new value z:zebra
+dict['z'] ='zebra'
+print(dict)
+
+#replace the contents of 'd' as dog
+dict['d']='dog'
+print(dict)
+
+#print all values from this dictionary
+print(dict)
+
+#find length of dictionary
+print(len(dict))
