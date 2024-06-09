@@ -1,0 +1,16 @@
+units=float(input('Enter num of units'))
+if units <= 50:
+        bill = units * 0.50
+
+elif units<=150:
+        bill = (50 * 0.50) + ((units - 50) * 0.75)
+
+elif units<=250:
+        bill = (50 * 0.50) + (100 * 0.75) + ((units - 150) * 1.25)
+
+else:
+        bill = (50 * 0.50) + (100 * 0.75) + (100 * 1.25) + ((units - 250) * 1.50)
+
+charge=bill*0.17
+tot_bill=bill+charge
+print(tot_bill)
