@@ -1,0 +1,42 @@
+x=[45,67,12,'hello',23.45,'world']
+
+#extract only string values from this list
+x1=[n for n in x if isinstance(n,string)]
+print(x1)
+
+#create a new list with strings in uppercase
+x2=[ n.upper() for n in x if isinstance(n,string)]
+print(x2)
+
+#find the addition of integer values
+x3=[n for n in x if not isinstance(n,str)]
+print(sum(x3))
+
+#check that value 56 is present or not
+print(56 in x)
+
+#print the list in reverse order
+print(list(reversed(x))
+
+#delete the string 'hello' form list
+x.remove('hello')
+print(x)
+
+#imsert element 36 at pos 5th in the list
+x.insert(5,36)
+print(x)
+
+#count total elements in list
+print(len(x))
+
+#extract the values from 2nd to 5th index
+print(x[2:6])
+
+#append [34,'pune] to this list
+x4=[34,'pune']
+x.append(x1)
+print(x)
+
+#delete last element from list
+x.pop()
+print(x)
